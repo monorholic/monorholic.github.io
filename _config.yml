@@ -4,20 +4,19 @@ remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: holic
 
 # Site settings
-title: monorholic
+title: monorholic devlog
+title_separator: "|"
 logo: "/assets/images/monorholic_t.png"
-description: monorholic dev blog
-email: monorholic@gmail.com
-twitter_username:  monorholic
-github_username:  monorholic
 search: true
-repository: "monorholic/monorholic"
+repository: "monorholic/monorholic.github.io"
 include: ["_pages"]
 permalink: /:title/
 markdown: kramdown
 paginate: 6
 paginate_path: /page:num/
 timezone: Asia/Seoul
+languages: "en"
+exclude_from_localizations: ["javascript", "images"]
 
 # Plugins
 plugins:
@@ -29,25 +28,32 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "monorholic"
-  avatar : "/assets/images/monorholic_w.png"
-  bio    : "monorholic"
+  name: "monorholic"
+  avatar: "/assets/images/monorholic_w.png"
+  bio: "Hello World!"
+  location: "Seoul, South Korea"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/monorholic"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/monorholic"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/monorholic"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/monorholic"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/monorholic"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/monorholic"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/monorholic"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/monorholic"
 
 defaults:
   # _posts
